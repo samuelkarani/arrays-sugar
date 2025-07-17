@@ -1,0 +1,17 @@
+{
+  "name": "arrays-sugar",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Samuel Karani Mbaabu",
+  "type": "module",
+  "scripts": {
+    "test": "tsx src/index.tests.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "keywords": []
+}
