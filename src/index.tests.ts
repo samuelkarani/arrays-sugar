@@ -15,7 +15,7 @@ import {
   someConcurrent,
   someOptimized,
   someSerial,
-} from "./index";
+} from "./index.js";
 
 describe("Async arrays", () => {
   const array = [1, 7, 3];

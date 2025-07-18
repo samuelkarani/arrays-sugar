@@ -1,7 +1,7 @@
 {
   "name": "arrays-sugar",
   "version": "1.0.0",
-  "description": "",
+  "description": "async versions of javascript array functions: every, filter, find, findIndex, some",
   "license": "ISC",
   "author": "Samuel Karani Mbaabu",
   "type": "module",
@@ -13,5 +13,17 @@
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },
-  "keywords": []
+  "keywords": [
+    "async",
+    "array",
+    "arrays",
+    "every",
+    "filter",
+    "find",
+    "findIndex",
+    "some",
+    "javascript",
+    "typescript",
+    "sugar"
+  ]
 }
