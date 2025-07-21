@@ -1,12 +1,14 @@
 {
   "name": "arrays-sugar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "async versions of javascript array functions: every, filter, find, findIndex, some",
   "license": "ISC",
   "author": "Samuel Karani Mbaabu",
   "type": "module",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "tsx src/index.tests.ts"
+    "build": "tsc",
+    "test": "tsx tests/index.ts"
   },
   "devDependencies": {
     "@types/node": "^24.0.1",
@@ -23,5 +25,13 @@
     "find",
     "findIndex",
     "some"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelkarani/arrays-sugar"
+  },
+  "bugs": {
+    "url": "https://github.com/samuelkarani/arrays-sugar/issues"
+  },
+  "homepage": "https://github.com/samuelkarani/arrays-sugar"
 }

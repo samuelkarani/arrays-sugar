@@ -1,5 +1,3 @@
-import { deepStrictEqual, strictEqual } from "node:assert";
-import { describe, it } from "node:test";
 import {
   everyConcurrent,
   everyOptimized,
@@ -15,7 +13,9 @@ import {
   someConcurrent,
   someOptimized,
   someSerial,
-} from "./index.js";
+} from "arrays-sugar";
+import { deepStrictEqual, strictEqual } from "node:assert";
+import { describe, it } from "node:test";
 
 describe("Async arrays", () => {
   const array = [1, 7, 3];
