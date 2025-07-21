@@ -15,15 +15,13 @@
   },
   "keywords": [
     "async",
-    "array",
     "arrays",
+    "array",
+    "sugar",
     "every",
     "filter",
     "find",
     "findIndex",
-    "some",
-    "javascript",
-    "typescript",
-    "sugar"
+    "some"
   ]
 }

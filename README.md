@@ -1,5 +1,3 @@
-Medium article: https://medium.com/@samiezkay/8d70198ffc72
-
 ## What you can do:
 
 Use async versions of array functions with predicates e.g.
@@ -12,28 +10,9 @@ findIndex(array, async (number) => number === 2) // 1 ✅
 array.findIndex(async (number) => number === 2) // 0 ❌
 ```
 
-### 🎉 Become a sponsor ☕ [buy me a coffee](https://github.com/samuelkarani/ai-sugar/blob/main/coff.ee/samiezkay)
+<!-- ### 🎉 Become a sponsor -->
 
-## Why?
-
-Using callbacks with promises or async/await inside findIndex always returns truthy for all items in the array.
-
-If you try this in the console or node.js it will always return `false`
-
-`[1, 2, 3].findIndex(async (number) => number === 2) === 1`
-
-The same goes for `every`, `find`, `filter`, `some`
-
-Outside `map` it seems only `reduce` can work with `promise` or `async`/`await` callbacks
-
-<!-- Because most array functions with callbacks can't work with `promises` or `async`/`await` -->
-
-```
-const sum = await [1, 2, 3].reduce((accumulator, number) => {
-  return accumulator.then(value => value + number)
-}, Promise.resolve(0));
-console.log(sum) // 6
-```
+### ☕ [Buy me a coffee](https://buymeacoffee.com/samuelkarani) 🎉 supports the project
 
 ## What's in the package?
 
@@ -71,25 +50,47 @@ So each function has 2/3 versions:
     });
 ```
 
+## Why?
+
+Using callbacks with promises or async/await inside findIndex always returns truthy for all items in the array.
+
+If you try this in the console or node.js it will always return `false`
+
+`[1, 2, 3].findIndex(async (number) => number === 2) === 1`
+
+The same goes for `every`, `find`, `filter`, `some`
+
+Outside `map` it seems only `reduce` can work with `promise` or `async`/`await` callbacks
+
+<!-- Because most array functions with callbacks can't work with `promises` or `async`/`await` -->
+
+```
+const sum = await [1, 2, 3].reduce((accumulator, number) => {
+  return accumulator.then(value => value + number)
+}, Promise.resolve(0));
+console.log(sum) // 6
+```
+
 ## That's it!
 
 Thanks for reading.
 I welcome your input, suggestions, feedback.
 
+Here is the [medium article](https://medium.com/@samiezkay/8d70198ffc72) I wrote introducing this library.
+
 Check out the following related libraries that I also built with this release.
 
-[ai-sugar](https://github.com/samuelkarani/ai-sugar) AI Sugar is a collection of syntactic sugar function helpers for working with AI apis.
+[ai-sugar](https://github.com/samuelkarani/ai-sugar) AI Sugar is a collection of utility functions for working with AI apis.
 
 ```
 const result1 = await ai.sort({
   array: ["green", "red", "blue", "yellow"],
   prompt: "rainbow color order",
-  schema: z.string(),
 });
 // ["red", "yellow", "green", "blue"]
 ```
 
-[zod-sugar](https://github.com/samuelkarani/zod-sugar) Zod Sugar is basically reverse zod i.e. creates a zod schema from any value:
+[zod-sugar](https://github.com/samuelkarani/zod-sugar) Zod Sugar is basically reverse zod i.e. creates a zod schema from a javascript value:
 
 ```
 const schema = createZod({ foo: "bar", baz: 1 });
@@ -99,9 +100,9 @@ schema.safeParse({ foo: "bar", baz: 1 }).success // true
 
 ## Where you can find me
 
-You can reach me via email at samuel.karani@berkeley.edu
+You can email me at samuel.karani@berkeley.edu
 
-I occasionally inhabit [Twitter](https://x.com/samuel_karani)
+I occasionally inhabit Twitter https://x.com/samuel_karani
 
 <!-- I also have an [Instagram](https://www.instagram.com/samiezkay) -->
 
@@ -118,13 +119,12 @@ Find the best alternatives with one click. Discover similar websites, tools and 
 
 Support us if you would like this work to continue! Sponsorship allows development and maintenance of all 3 sugar libraries: [ai-sugar](https://github.com/samuelkarani/ai-sugar), [arrays-sugar](https://github.com/samuelkarani/arays-sugar) and [zod-sugar](https://github.com/samuelkarani/zod-sugar).
 
-You can support us on either
-[Patreon](https://patreon.com/samuelkarani) or [BuyMeACoffee](https://coff.ee/samiezkay) as we wait for approval to be part of Github Sponsors program.
+You can support us on [BuyMeACoffee](https://buymeacoffee.com/samuelkarani) as we wait for approval to be part of Github Sponsors program.
 
 You can become a sponsor at whatever amount you are comfortable with.
 
 - For individuals, starting $5 monthly or a one-time payment.
-- For companies, starting $500 monthly or a one-time payment.
+- For companies, starting $100 monthly or a one-time payment.
 
 As a sponsor you can have yours or your organization's name or photo featured in our upcoming sponsors list tiers.
 The list tiers will be updated every month to reflect the total contributions for every individual and company.
