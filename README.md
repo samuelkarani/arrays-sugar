@@ -14,9 +14,8 @@ array.findIndex(async (number) => number === 2) // 0 ❌
 
 Built with Typescript for Node.js or the Browser.
 
-<!-- ### 🎉 Become a sponsor
-
-### 🎉 Become a patreon -->
+<!-- ### 🎉 Become a sponsor -->
+<!-- ### 🎉 Become a patreon -->
 
 ### ☕ [Buying me a coffee](https://buymeacoffee.com/samuelkarani) supports the project 🎉
 

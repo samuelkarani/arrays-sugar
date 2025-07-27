@@ -1,6 +1,6 @@
 {
   "name": "arrays-sugar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "async versions of javascript array functions: every, filter, find, findIndex, some",
   "license": "ISC",
   "author": "Samuel Karani Mbaabu",
@@ -25,6 +25,11 @@
     "find",
     "findIndex",
     "some"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "similarly.png"
   ],
   "repository": {
     "type": "git",
