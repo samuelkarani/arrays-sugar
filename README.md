@@ -1,8 +1,4 @@
-## arrays-sugar
-
-<!-- ### 🎉 Become a sponsor -->
-
-### ☕ [Buying me a coffee](https://buymeacoffee.com/samuelkarani) supports the project 🎉
+# arrays sugar
 
 ## What's this package?
 
@@ -16,7 +12,13 @@ findIndex(array, async (number) => number === 2) // 1 ✅
 array.findIndex(async (number) => number === 2) // 0 ❌
 ```
 
-Built with **Typescript** for **Node.js** or the **Browser**.
+Built with Typescript for Node.js or the Browser.
+
+<!-- ### 🎉 Become a sponsor
+
+### 🎉 Become a patreon -->
+
+### ☕ [Buying me a coffee](https://buymeacoffee.com/samuelkarani) supports the project 🎉
 
 ## What's in it?
 
@@ -75,6 +77,15 @@ const sum = await [1, 2, 3].reduce((accumulator, number) => {
 console.log(sum) // 6
 ```
 
+### Coming soon
+
+Async versions of:
+
+1. `indexOf`
+2. `lastIndexOf`
+3. `findLast`
+4. `findLastIndex`
+
 ## That's it!
 
 Thanks for reading.
@@ -101,6 +112,22 @@ const schema = createZod(object);
 schema.safeParse(object).success // true
 ```
 
+## [Become a sponsor - starting 5$](https://coff.ee/samuelkarani)
+
+Support us if you would like this work to continue! You can contribute on either on [Patreon](https://patreon.com/samuelkarani) or [BuyMeACoffee](https://coff.ee/samuelkarani) - once or monthly. Sponsorship allows development and maintenance of all 3 sugar libraries i.e. [ai-sugar](https://github.com/samuelkarani/ai-sugar), [arrays-sugar](https://github.com/samuelkarani/arays-sugar) and [zod-sugar](https://github.com/samuelkarani/zod-sugar).
+
+<!-- Github Sponsors program. -->
+
+<!-- You can become a sponsor at whatever amount you are comfortable with.
+
+- For individuals, starting $5 monthly or a one-time payment.
+- For companies, starting $100 monthly or a one-time payment.
+
+As a sponsor you can have yours or your organization's name or photo featured in our upcoming sponsors list tiers.
+The list tiers will be updated every month to reflect the total contributions for every individual and company. -->
+
+<!-- Additionally each person & company gets 144 characters to promote anything they would want. -->
+
 ## Where you can find me
 
 You can reach me via email at samuel.karani@berkeley.edu
@@ -117,19 +144,3 @@ Find the best alternatives with one click. Discover similar websites, tools and 
 [Check out Similarly](https://chromewebstore.google.com/detail/similarsites+-discover-al/dhahadpjpmphckgebnikgpdhaolcojdg)
 
 <!-- I am also a co-founder at PollGPT and we're currently on the lookout for investors - reach out if you're interested in building the future of research with AI. -->
-
-## [Become a sponsor - starting 5$](https://coff.ee/samuelkarani)
-
-Support us if you would like this work to continue! Sponsorship allows development and maintenance of all 3 sugar libraries: [ai-sugar](https://github.com/samuelkarani/ai-sugar), [arrays-sugar](https://github.com/samuelkarani/arays-sugar) and [zod-sugar](https://github.com/samuelkarani/zod-sugar).
-
-You can contribute on [BuyMeACoffee](https://coff.ee/samuelkarani) as we wait for approval to be part of Github Sponsors program.
-
-<!-- You can become a sponsor at whatever amount you are comfortable with.
-
-- For individuals, starting $5 monthly or a one-time payment.
-- For companies, starting $100 monthly or a one-time payment.
-
-As a sponsor you can have yours or your organization's name or photo featured in our upcoming sponsors list tiers.
-The list tiers will be updated every month to reflect the total contributions for every individual and company. -->
-
-<!-- Additionally each person & company gets 144 characters to promote anything they would want. -->
