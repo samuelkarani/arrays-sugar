@@ -17,7 +17,7 @@ Built with Typescript for Node.js or the Browser.
 <!-- ### 🎉 Become a sponsor -->
 <!-- ### 🎉 Become a patreon -->
 
-### ☕ [Buying me a coffee](https://github.com/sponsors/samuelkarani) supports the project 🎉
+### [🎉 Support the project from $5](https://github.com/sponsors/samuelkarani)
 
 ## What's in it?
 
@@ -88,7 +88,7 @@ Async versions of:
 ## That's it!
 
 Thanks for reading.
-I welcome your input, suggestions, feedback. Here is the [medium article](https://medium.com/@samiezkay/8d70198ffc72) I wrote introducing this library.
+I welcome your input, suggestions, feedback. Here is the [medium article](https://medium.com/@samiezkay/introducing-arrays-sugar-async-versions-of-array-methods-with-predicate-callbacks-8d70198ffc72) I wrote introducing this library.
 
 Check out the following related libraries that I also built with this release.
 
@@ -111,9 +111,11 @@ const schema = createZod(object);
 schema.safeParse(object).success // true
 ```
 
-## [Become a sponsor - starting 5$](https://github.com/sponsors/samuelkarani)
+## [🎉 Become a sponsor starting 5$](https://github.com/sponsors/samuelkarani)
 
-Support us if you would like this work to continue! You can contribute on either on [Github Sponsors](https://github.com/sponsors/samuelkarani) or [Patreon](https://patreon.com/samuelkarani) or [BuyMeACoffee](https://coff.ee/samuelkarani) - once or monthly. Sponsorship allows development and maintenance of all 3 sugar libraries i.e. [ai-sugar](https://github.com/samuelkarani/ai-sugar), [arrays-sugar](https://github.com/samuelkarani/arays-sugar) and [zod-sugar](https://github.com/samuelkarani/zod-sugar).
+Support us if you would like this work to continue! You can contribute on either on [Github Sponsors](https://github.com/sponsors/samuelkarani) or [Patreon](https://patreon.com/samuelkarani) or [BuyMeACoffee](https://coff.ee/samuelkarani) - once or monthly.
+
+<!-- Sponsorship allows development and maintenance of all 3 sugar libraries i.e. [ai-sugar](https://github.com/samuelkarani/ai-sugar), [arrays-sugar](https://github.com/samuelkarani/arays-sugar) and [zod-sugar](https://github.com/samuelkarani/zod-sugar). -->
 
 <!-- You can become a sponsor at whatever amount you are comfortable with.
 
